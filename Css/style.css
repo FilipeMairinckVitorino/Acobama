@@ -1,0 +1,323 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Microsoft Tae Le';
+    src: url(../Fonts/Microsoft_Tae_Le_Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+main, header, div, span, footer, section {
+    overflow-y: hidden;
+}
+
+body {
+    background-color: white;
+    background-image: url(../Imagens/Fundo/Tubosedited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 50vh;
+    overflow-x: hidden;
+    font-family: 'Microsoft Tae Le', Helvetica, sans-serif;
+    position: relative;
+}
+
+header.contato {
+    height: 80px;
+    width: 100vw;
+    background-color: #58595D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+a.contato {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 900;
+    text-wrap: nowrap;
+    align-items: center;
+}
+
+div.social.icon.social {
+    flex-shrink: 0;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#whatsapp .icon {
+    background-image: url(../Imagens/Icons/Redes_Sociais/whatsapp_white.png);
+}
+
+#instagram .icon {
+    background-image: url(../Imagens/Icons/Redes_Sociais/instagram_white.png);
+}
+
+#email1 .icon, #email2 .icon {
+    background-image: url(../Imagens/Icons/Redes_Sociais/email_white.png);
+}
+
+section.logo {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 170px;
+    width: 100vw;
+    align-items: center;
+    padding-left: 58px;
+    padding-right: 80px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+div.logo {
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../Imagens/Logo/Logo_Vetor.svg);
+    width: 500px;
+    margin-right: 50px;
+    flex-shrink: 0;
+}
+
+span.adress {
+    display: flex;
+    justify-self: flex-end;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 900;
+    text-wrap: nowrap;
+    position: relative;
+    bottom: 15px;
+    color: #094B75;
+    align-items: center;
+    line-height: 1.5em;
+}
+
+div.icon.adress {
+    background-image: url(../Imagens/Icons/localization.png);
+    display: flex;
+    height: 42px;
+    width: 42px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 15px;
+}
+
+section.cards {
+    width: 100vw;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.card.dad {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 2em;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+    overflow: hidden;
+    background-color: rgba(233, 233, 233, 0.514);
+}
+
+section.cards div.card.dad:hover {
+    transform: scale(1.025);
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+
+section.cards1 div.card.dad {
+    height: 580px;
+    width: 490px;
+}
+
+div.card.tittle, div.card.tittle {
+    display: flex;
+    flex-shrink: 0;
+    background-color: #516F74;
+    width: 100%;
+    height: 150px;
+    align-self: flex-start;
+    border-radius: 50px 50px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    color: #71BACF;
+    font-size: 42px;
+}
+
+div.card.icon {
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+} 
+
+#EPI {
+    background-image: url(../Imagens/Icons/capacete.png);
+    width: 140px;
+}
+
+#tubes {
+    background-image: url(../Imagens/Icons/tubo.png);
+    width: 207px;
+}
+
+#tractor {
+    background-image: url(../Imagens/Icons/trator_blue.png);
+    width: 129px;
+}
+
+div.textdad {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.card.text, div.card.text {
+    align-items: center;
+    vertical-align: middle;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5em;
+    color: #3E5559;
+    user-select: none;
+} 
+
+section.cards1 div.card.text {
+    font-size: 40px;
+}
+
+#card_principal {
+    font-size: 55px;
+}
+
+section.cards2 div.card.dad {
+    height: 750px;
+    width: 650px;
+}
+
+section.cards2 div.card.text {
+    font-size: 50px;
+}
+
+section.cards2 div.card.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ruler {
+    background-image: url(../Imagens/Icons/ruler.png);
+    width: 142px;
+}
+
+#calculator {
+    background-image: url(../Imagens/Icons/calculator.png);
+    width: 70px;
+}
+
+a.budjet {
+    color: #094B75;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+section.produtos {
+    margin-top: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow-x: visible;
+}
+
+section.produtos div.card.dad {
+    width: 100%;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 50px 50px;
+    transition-property: none;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+section.produtos div.card.tittle {
+    font-weight: 900;
+    font-family: 'Microsoft Tae Le', Helvetica, sans-serif;
+    width: 100%;
+    align-self: flex-start;
+    border-radius: 50px 50px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 30px;
+    user-select: none;
+    height: fit-content;
+    text-align: center;
+}
+
+section.imagens {
+    padding: 0px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.produto {
+    display: flex;
+    flex-shrink: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25%;
+    width: 25%;
+    margin: 50px;
+    border-radius: 50px;
+    border: solid #3E5559 0.6vw;
+
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+
+img.produto:hover {
+    transform: scale(1.025);
+    transition-duration: 0.1s;
+    transition-property: all;
+    transition-timing-function: ease-in;
+}
+
+footer.contato {
+    display: none;
+}
