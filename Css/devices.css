@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1690px) {
+    a.contato {
+        font-size: 20px;
+    }
+
+    div.social.icon.social {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    div.logo {
+        margin-top: 24px;
+        margin-bottom: 40px;
+        height: 90px;
+    }
+
+    div.card.dad {
+        margin: 2em;
+        margin-bottom: 100px;
+    }
+
+    section.cards1 div.card.dad {
+        height: 530px;
+        width: 420px;
+    }
+
+    div.card.tittle {
+        width: 100%;
+        height: 180px;
+    }
+
+    div.card.icon {
+        height: 90px;
+    } 
+
+    #EPI {
+        width: 129px;
+    }
+
+    #tubes {
+        width: 185.5px;
+    }
+
+    #tractor {
+        width: 116px;
+    }
+
+    section.cards1 div.card.text {
+        font-size: 35px;
+    }
+
+    #card_principal {
+        font-size: 50px;
+    }
+
+    section.cards2 div.card.dad {
+        height: 660px;
+        width: 550px;
+    }
+
+    section.cards2 div.card.text, section.cards2 a.card.text {
+        font-size: 36px;
+    }
+
+    #ruler {
+        width: 127px;
+    }
+
+    #calculator {
+        width: 64px;
+    }
+}
+
+@media screen and (max-width: 1335px) {
+    img.produto {
+        height: 400px;
+        width: 400px;
+        margin: 50px;
+
+        border: solid #3E5559 1vw;
+    }
+}
+
+@media screen and (max-width:1290px) and (min-width: 1000px){
+    a.adress {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1228px) and (min-width: 1000px){
+
+    section.cards1 div.card.dad {
+        height: 440px;
+        max-width: 420px;
+    }
+
+    div.card.tittle {
+        width: 100%;
+        height: 120px;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    div.card.icon {
+        height: 60px;
+    }
+
+    #EPI {
+        width: 88px;
+    }
+
+    #tubes {
+        width: 125px;
+    }
+
+    #tractor {
+        width: 77px;
+    }
+
+    div.card.text {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    section.cards1 div.card.text {
+        font-size: 28px;
+    }
+
+    #card_principal {
+        font-size: 36px;
+    }
+
+    section.cards2 {
+        padding: 0;
+    }
+
+    section.cards2 div.card.dad {
+        height: 440px;
+        max-width: 420px;
+    }
+
+    section.cards2 div.card.text, section.cards2 a.card.text {
+        font-size: 28px;
+    }
+
+    #ruler {
+        width: 85px;
+    }
+
+    #calculator {
+        width: 42.5px;
+    }
+}
+
+@media screen and (max-width:1060px) and (min-width: 1000px){
+    a.adress {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    header.contato {
+        display: none;
+    }
+
+    section.logo {
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: inherit;
+        margin-bottom: 30px;
+    }
+
+    div.logo {
+        margin-top: 35px;
+        height: 60px;
+        max-height: 100px;
+        width: 90vw;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    a.adress {
+        display: flex;
+        align-items: center;
+        font-size: 19px;
+        bottom: 0px;   
+        margin-right: 20px;
+    }
+
+    p.adress {
+        display: flex;
+        width: fit-content;
+        text-wrap: wrap;
+    }
+
+    div.icon.adress {
+        flex-shrink: 0;
+        height: 40px;
+        width: 40px;
+        margin-right: 5px;
+        margin-left: 20px;
+    }
+
+    section.cards {
+        padding-top: 20px;
+        width: 100vw;
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    div.card.dad {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: inherit;
+        margin: 1.5em;
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+
+    section.cards1 div.card.dad {
+        height: 440px;
+        max-width: 420px;
+    }
+
+    div.card.tittle {
+        width: 100%;
+        height: 120px;
+        border-radius: 50px 50px 0px 0px;
+    }
+
+    div.card.icon {
+        height: 60px;
+    }
+
+    #EPI {
+        width: 88px;
+    }
+
+    #tubes {
+        width: 125px;
+    }
+
+    #tractor {
+        width: 77px;
+    }
+
+    div.card.text {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    section.cards1 div.card.text {
+        font-size: 28px;
+    }
+
+    #card_principal {
+        font-size: 36px;
+    }
+
+    section.cards2 {
+        padding: 0;
+    }
+
+    section.cards2 div.card.dad {
+        height: 440px;
+        max-width: 420px;
+    }
+
+    section.cards2 div.card.text, section.cards2 a.card.text {
+        font-size: 28px;
+    }
+
+    #ruler {
+        width: 85px;
+    }
+
+    #calculator {
+        width: 42.5px;
+    }
+
+    section.produtos{
+        margin-left: 8vw;
+        margin-right: 8vw;
+        overflow-x: hidden;
+    }
+
+    img.produto {
+        height: 500px;
+        width: 500px;
+        margin: 50px;
+
+        border: solid #3E5559 2vw;
+    }
+
+    img.produto:nth-child(1){
+        margin-top: 100px;
+    }
+    
+
+    footer.contato {
+        margin-top: 20px;
+        height: 250px;
+        width: 100vw;
+        background-color: #58595D;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: space-around;
+        overflow-x: hidden;
+        padding: 10px 15px 10px 15px;
+        flex-wrap: wrap;
+    }
+
+    a.contato {
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    div.social.icon.social {
+        display: flex;
+        height: 24px;
+        width: 24px;
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    img.produto {
+        height: 80%;
+        width: 80%;
+        margin: 25px;
+    }
+
+    img.produto:nth-child(1){
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    footer.contato a.contato {
+        font-size: 16px;
+    }
+
+    div.card.son, div.card.tittle  {
+        font-size: 32px;
+    }
+    
+}
+
+@media screen and (orientation: portrait) {
+    div.card.dad, section.produtos {
+        transform: none;
+        transition-property: transform;
+    }
+
+    div.card.dad:hover {
+        transform: none;
+        transition-property: transform;
+    }
+
+    section.produtos:hover {
+        transform: none;
+        transition-property: transform;
+    }
+}
+
+@media screen and (max-width: 1435px) {
+
+    section.cards1 div.card.dad:nth-child(1){
+        order: 2;
+    }
+
+    section.cards1 div.card.dad:nth-child(2){
+        order: 1;
+    }
+
+    section.cards1 div.card.dad:nth-child(3){
+        order: 3;
+    }
+}
